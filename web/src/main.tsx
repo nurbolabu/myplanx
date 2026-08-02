@@ -49,3 +49,4 @@ function SpaceSheet({ close, saved }: { close: () => void; saved: (id: string) =
   return <div className="overlay"><form className="sheet" onSubmit={submit}><div className="handle"/><div className="sheet-title"><h2>Новое общее пространство</h2><button type="button" onClick={close}>Отмена</button></div><p className="sheet-copy">Например, «Мы», «Дом» или «Семья». После создания вы получите ссылку для партнёра.</p><label>Название<input name="name" required minLength={2} autoFocus placeholder="Наш дом"/></label><button className="save" disabled={busy}>{busy ? 'Создаём…' : 'Создать и пригласить'}</button></form></div>;
 }
 createRoot(document.getElementById('root')!).render(<App/>);
+
