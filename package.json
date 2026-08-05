@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@grammyjs/conversations": "^2.1.1",
+    "@supabase/supabase-js": "^2.112.1",
     "grammy": "^1.30.0"
   },
   "devDependencies": {
